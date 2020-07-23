@@ -1,0 +1,22 @@
+.btn {
+margin-bottom: 50px;
+font-size: 150%;
+}
+
+body{
+background-color: whitesmoke;
+font-size: xxx-large;
+}
+
+.card {
+margin: auto auto; 
+float: none;
+margin-bottom: 10%; 
+margin-top: 10%;
+width: 50%;
+}
+
+img{
+    width: 90%;
+    margin-left: 5%;
+}

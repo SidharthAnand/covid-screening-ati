@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>Screening for COVID 19</title>
+        
+        <style>
+
+            body {
+			background-color: #11DB0A;
+            color: white;
+            margin-bottom: 50px;
+			}
+
+        </style>
+    </head>
+
+    <body>
+        <div style="width:90%; margin-left: 5%;">
+            <div style="text-align: center;">
+                <h1 style="margin-top: 5%;">Screening for COVID-19</h1>
+                
+                <h1 style="margin-top:5%; font-size: 400%;">CLEAR</h1>
+            
+                <h1 id="datetime" style="margin-top: 5%; "></h1>
+
+                <h1 style="margin-top: 5%;">Show this screen at the Screening Station</h1>
+
+                <img src="images/check.png" alt="exclamation mark" style="width: 50%; height: 50%; margin-top: 5%;">
+
+                <h1 style="margin-top: 5%; ">Masks are required to enter</h1>
+                <h1 style="margin-top: 5%; margin-bottom:10%">Please keep at least 6 feet away from others</h1>
+
+                <script>
+                    var time = new Date();
+                    document.getElementById("datetime").innerHTML = time.toString();
+                </script>
+
+            </div>
+        </div>
+    </body>
+</html>
